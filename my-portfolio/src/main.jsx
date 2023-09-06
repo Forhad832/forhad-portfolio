@@ -14,6 +14,7 @@ import Resume from './Pages/Resume/Resume';
 import Portfolio from './Pages/Portfolio/Portfolio';
 import Blog from './Pages/Blog/Blog';
 import Contact from './Pages/Contact/Contact';
+import BlogDetails from './Pages/Blog/BlogDetails';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path :'blog',
         element :<Blog></Blog>
+      },
+      {
+        path :'blogDetails/:name',
+        element :<BlogDetails></BlogDetails>
       },
       {
         path :'contact',

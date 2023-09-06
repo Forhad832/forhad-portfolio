@@ -2,8 +2,8 @@
 
 import HTML from '../../images/html.png'
 import CSS from '../../images/css.webp'
-import JS from '../../images/js.png'
-import PHP from '../../images/php.png'
+import JS from '../../images/jss.png'
+import PHP from '../../images/phpp.png'
 import BS from '../../images/bs.jfif'
 import TL from '../../images/tailwind.png'
 import REACT from '../../images/react.png'
@@ -11,12 +11,12 @@ import JQUERY from '../../images/jquery.png'
 import RESPONSIVE from '../../images/avatar.png'
 import JSON from '../../images/json.jpg'
 import REACTROUTER from '../../images/reactrouter.png'
-import CHROME from '../../images/chrome.png'
+import CHROME from '../../images/chrome1.png'
 import FIREBASE from '../../images/firebase.png'
 import FIREFOX from '../../images/firefox.png'
 import ADOBEP from '../../images/adobephoto.png'
 import FIGMA from '../../images/figma.png'
-import GITHUB from '../../images/github.svg'
+import GITHUB from '../../images/git.png'
 import NETLIFY from '../../images/netlify.svg'
 import VSCODE from '../../images/vscode.png'
 import DEVTOOLS from '../../images/devTool.png'
@@ -24,6 +24,7 @@ import GOOGLEDRIVE from '../../images/drive.png'
 import MSEXCEL from '../../images/exel.png'
 import MONGODB from '../../images/mongodb.webp'
 import MYSQL from '../../images/mysql.jpg'
+import WINDOWS from '../../images/windows.png'
 export const education = [
    
     {
@@ -94,12 +95,12 @@ export const education = [
     
     {
       name: 'JSON, Rest API',
-      skill: 'Expert',
+      skill: 'Skilled',
       icon: JSON,
     },
     {
       name: 'React Router Dom',
-      skill: 'Expert',
+      skill: 'Skilled',
       icon: REACTROUTER,
     },
     
@@ -149,7 +150,7 @@ export const education = [
     },
     {
       name: 'Netlify',
-      skill: 'Senior',
+      skill: 'Skilled',
       icon: NETLIFY,
     },
     
@@ -183,7 +184,7 @@ export const education = [
     },
     {
       name: 'My SQL',
-      skill: 'Junior',
+      skill: 'Skilled',
       icon: MYSQL,
     },
     
@@ -192,7 +193,7 @@ export const education = [
     {
       name: 'Windows',
       skill: 'Expert',
-      icon: MONGODB,
+      icon: WINDOWS,
     }
     
   ]
