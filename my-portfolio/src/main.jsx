@@ -8,7 +8,6 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import MainLayout from './Layout/MainLayout';
-import App from './App';
 import About from './Pages/About/About';
 import Resume from './Pages/Resume/Resume';
 import Portfolio from './Pages/Portfolio/Portfolio';
