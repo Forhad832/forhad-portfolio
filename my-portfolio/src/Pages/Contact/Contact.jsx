@@ -1,6 +1,22 @@
-import React from 'react';
-
+// eslint-disable-next-line no-unused-vars
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser'
 const Contact = () => {
+    const form = useRef();
+
+    const handleSubmit = (e) =>{
+        e.preventDefault();
+
+        emailjs.sendForm('service_gqvb8wj', 'template_usftwjc', form.current, 'h7ppidTHRSaouGNGN')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset();
+    };
+
+    
     return (
         <div className='py-5 px-10'>
             <h2 className='text-3xl font-medium mb-3'>Contact</h2>
@@ -11,7 +27,7 @@ const Contact = () => {
                     </div>
                     <div className="mt-12">
                         <h4 className='text-2xl font-medium'>Contact Form</h4>
-                        <form className='mt-12'>
+                        <form ref={form} className='mt-12' onSubmit={handleSubmit}>
                            <div className='flex gap-4 mb-5'>
                            <input  className='border texts-m tracking-wide font-semibold border-nav-blue bg-transparent w-full outline-none  px-4 py-2 rounded-md' placeholder='Full Name' type="text" name="name" id="name" />
                             <input className='border texts-m tracking-wide font-semibold border-nav-blue bg-transparent w-full outline-none  px-4 py-2 rounded-md' placeholder='Email Address' type="email" name="email" id="email" />
