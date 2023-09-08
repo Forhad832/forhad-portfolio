@@ -33,7 +33,8 @@ const Resume = () => {
                     }
                 </div>
                 <div className='mt-12'>
-                <h3 className='text-2xl font-medium'>My skills</h3>
+                <h3 className='text-3xl font-medium mb-2 tracking-wide'>My Skills</h3>
+            <div className='w-20 h-1 bg-pink-500 rounded-full'></div>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-12'>
                     <div >
                         <h4 className='text-2xl font-medium mb-6'>Languages</h4>
@@ -82,7 +83,7 @@ const Resume = () => {
                                database.map((e,i)=> <DataBaseCard key={i} data={e}></DataBaseCard>)
                             }
                         </div>
-                        <h4 className='text-2xl font-medium my-6'>Graphics</h4>
+                        <h4 className='text-2xl  font-medium my-6'>Graphics</h4>
                         <div>
                             {
                                graphic.map((e,i)=> <GraphicCard key={i} data={e}></GraphicCard>)

@@ -7,7 +7,7 @@ const DataBaseCard = ({data}) => {
     return (
         <div className='flex gap-4 items-center mb-3'>
             <img className='w-6 object-contain' src={icon} alt="" />   
-            <h5 className='text-lg font-medium'>{name}</h5>
+            <h5 className='text-para-white font-medium'>{name}</h5>
             <p className='text-yellow-300'><sub>{skill}</sub></p>         
         </div>
     );

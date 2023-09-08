@@ -39,9 +39,9 @@ const about_me = [
 const SideNav = () => {
   return (
     <div className='p-4 '>
-      <div className='flex items-center gap-4 md:gap-0 md:block'>
-      <div className='bg-nav-blue w-24 md:w-48 mx-auto rounded-2xl mt-8'>
-        <img className='md:w-48 md:h-48 object-fill mx-auto p-4 rounded-full' src={forhad} alt="" />
+      <div className='flex items-center  gap-4 md:gap-0  md:block'>
+      <div className='bg-nav-blue w-32 md:w-48 md:mx-auto rounded-2xl mt-8'>
+        <img className='w-full h-auto md:w-48 md:h-48 object-fill  md:mx-auto p-4 rounded-full' src={forhad} alt="" />
 
       </div>
       <div>

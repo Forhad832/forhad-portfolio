@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'para-white' :'#d6d6d6',
+        'para-white' :'#c7c7c7',
         'body-black': '#010313',
         'nav-blue' :'#150f2d',
       },

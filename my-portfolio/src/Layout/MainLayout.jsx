@@ -14,9 +14,16 @@ const MainLayout = () => {
                 <SideNav></SideNav>
                 </div>
                 <div className='col-span-12 md:col-span-9 border-2 border-nav-blue rounded-lg'>
+                  
+               
                     <MainNav></MainNav>
+                    
+                  
                     <Outlet></Outlet>
+
                 </div>
+                
+
             </div>
         </main>
         </div>

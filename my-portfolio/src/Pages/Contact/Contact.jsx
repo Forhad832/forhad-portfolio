@@ -28,12 +28,12 @@ const Contact = () => {
                     <div className="mt-12">
                         <h4 className='text-2xl font-medium'>Contact Form</h4>
                         <form ref={form} className='mt-12' onSubmit={handleSubmit}>
-                           <div className='flex gap-4 mb-5'>
-                           <input  className='border texts-m tracking-wide font-semibold border-nav-blue bg-transparent w-full outline-none  px-4 py-2 rounded-md' placeholder='Full Name' type="text" name="name" id="name" />
+                           <div className='md:flex gap-4 mb-5'>
+                           <input  className='border texts-m tracking-wide font-semibold border-nav-blue bg-transparent w-full outline-none mb-4 md:mb-0 px-4 py-2 rounded-md' placeholder='Full Name' type="text" name="name" id="name" />
                             <input className='border texts-m tracking-wide font-semibold border-nav-blue bg-transparent w-full outline-none  px-4 py-2 rounded-md' placeholder='Email Address' type="email" name="email" id="email" />
                            </div>
                            <textarea className='border texts-m tracking-wide font-semibold border-nav-blue bg-transparent w-full outline-none  px-4 py-2 rounded-md resize-none'  name="messgae" id="message" placeholder='Your Message' cols="30" rows="5"></textarea>
-                           <input className='bg-nav-blue mt-6 flex ml-auto cursor-pointer px-4 py-2 rounded-lg text-lg tracking-wide font-medium ' type="submit" value="Send Message" />
+                           <input className='bg-nav-blue mt-6 flex ml-auto cursor-pointer px-6 py-3 rounded-lg  tracking-wider  ' type="submit" value="Send Message" />
                         </form>
                     </div>
               </div>
